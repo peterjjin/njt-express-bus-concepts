@@ -1,0 +1,876 @@
+window.PR_CALLOUT_DATA = {
+  "period": "May 2024",
+  "metric": "Average daily route-wide ridership",
+  "source_workbook": "May 2024 Average Bus Ridership by Route and Time Period (2).xlsx",
+  "source_sheet": "Sheet1",
+  "screen_date": "2026-09-11",
+  "scope_note": "Historical route-wide ridership, not boardings at this P&R and not a forecast for the express concept.",
+  "coverage_note": "Screened services with scheduled stops within 1 mile straight-line. Not a complete inventory of every operator. Highway alignments without a nearby stop are excluded. Verify current trips and access with each operator.",
+  "sites": {
+    "stadium": {
+      "name": "SHI Stadium",
+      "routes": [
+        {
+          "operator": "NJ TRANSIT",
+          "feed": "njt",
+          "route": "811",
+          "group": "NJ TRANSIT",
+          "ridership": {
+            "Weekday": 129.0909090909091,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": "A233:I233",
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "ST PETERS HOSPITAL",
+          "straight_line_miles": 0.9339397806821191,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "njt GTFS cached 2026-09-11",
+          "service_url": "https://www.njtransit.com/bus_data.zip",
+          "missing": "Weekend rows not supplied"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "A",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Direct / on-site stop",
+          "shuttle_needed": false,
+          "stop": "Stadium West Lot",
+          "straight_line_miles": 0.0010896010309427585,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "C",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Direct / on-site stop",
+          "shuttle_needed": false,
+          "stop": "Stadium West Lot",
+          "straight_line_miles": 0.0010896010309427585,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "H",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Direct / on-site stop",
+          "shuttle_needed": false,
+          "stop": "Stadium West Lot",
+          "straight_line_miles": 0.0010896010309427585,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "BL",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Direct / on-site stop",
+          "shuttle_needed": false,
+          "stop": "Stadium West Lot",
+          "straight_line_miles": 0.0010896010309427585,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "B",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Hill Center (NB)",
+          "straight_line_miles": 0.5297028335273184,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "HLX",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "RWJMS Research Tower",
+          "straight_line_miles": 0.7297468511583671,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "REXB",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Hill Center (NB)",
+          "straight_line_miles": 0.5297028335273184,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "WKND1",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Hill Center (NB)",
+          "straight_line_miles": 0.5297028335273184,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "WKND2",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Hill Center (SB)",
+          "straight_line_miles": 0.529940657960322,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        }
+      ]
+    },
+    "neilson": {
+      "name": "Neilson Plaza",
+      "routes": [
+        {
+          "operator": "Suburban Transit",
+          "feed": "suburban",
+          "route": "100",
+          "group": "Commuter / longer-distance buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Direct / on-site stop",
+          "shuttle_needed": false,
+          "stop": "Neilson Parking Plaza",
+          "straight_line_miles": 0.0,
+          "note": "Operator identity matters: Suburban lines 400 and 600 are not NJ TRANSIT routes 400 and 600. Timetable confirms Neilson stop; individual trips and current operation need operator confirmation.",
+          "service_source": "Coach USA / Suburban Line 100 timetable, effective May 27, 2025",
+          "service_url": "https://web.coachusa.com/CoachUsaAssets/files/99/route100.pdf",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Suburban Transit",
+          "feed": "suburban",
+          "route": "400",
+          "group": "Commuter / longer-distance buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Direct / on-site stop",
+          "shuttle_needed": false,
+          "stop": "Neilson Parking Plaza",
+          "straight_line_miles": 0.0,
+          "note": "Operator identity matters: Suburban lines 400 and 600 are not NJ TRANSIT routes 400 and 600. Timetable confirms Neilson stop; individual trips and current operation need operator confirmation.",
+          "service_source": "Coach USA / Suburban Line 400 timetable, effective May 27, 2025",
+          "service_url": "https://web.coachusa.com/CoachUsaAssets/files/99/route400.pdf",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Suburban Transit",
+          "feed": "suburban",
+          "route": "500",
+          "group": "Commuter / longer-distance buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Direct / on-site stop",
+          "shuttle_needed": false,
+          "stop": "Neilson Parking Plaza",
+          "straight_line_miles": 0.0,
+          "note": "Operator identity matters: Suburban lines 400 and 600 are not NJ TRANSIT routes 400 and 600. Timetable confirms Neilson stop; individual trips and current operation need operator confirmation.",
+          "service_source": "Coach USA / Suburban Line 500 timetable, effective May 27, 2025",
+          "service_url": "https://web.coachusa.com/CoachUsaAssets/files/99/route500.pdf",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Suburban Transit",
+          "feed": "suburban",
+          "route": "600",
+          "group": "Commuter / longer-distance buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Direct / on-site stop",
+          "shuttle_needed": false,
+          "stop": "Neilson Parking Plaza",
+          "straight_line_miles": 0.0,
+          "note": "Operator identity matters: Suburban lines 400 and 600 are not NJ TRANSIT routes 400 and 600. Timetable confirms Neilson stop; individual trips and current operation need operator confirmation.",
+          "service_source": "Coach USA / Suburban Line 600 timetable, effective May 27, 2025",
+          "service_url": "https://web.coachusa.com/CoachUsaAssets/files/99/route600.pdf",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "NJ TRANSIT",
+          "feed": "njt",
+          "route": "815",
+          "group": "NJ TRANSIT",
+          "ridership": {
+            "Weekday": 732.5454545454545,
+            "Saturday": 637.25,
+            "Sunday": 396.6
+          },
+          "source_ranges": {
+            "Weekday": "A236:I236",
+            "Saturday": "K184:S184",
+            "Sunday": "U174:AC174"
+          },
+          "access": "Direct / on-site stop",
+          "shuttle_needed": false,
+          "stop": "TOWER CENTER BLVD AT PARK & RIDE CROSSWALK#",
+          "straight_line_miles": 0.01416725268528572,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "njt GTFS cached 2026-09-11",
+          "service_url": "https://www.njtransit.com/bus_data.zip",
+          "missing": "All three day types supplied"
+        },
+        {
+          "operator": "NJ TRANSIT",
+          "feed": "njt",
+          "route": "818",
+          "group": "NJ TRANSIT",
+          "ridership": {
+            "Weekday": 142.8181818181818,
+            "Saturday": 109.5,
+            "Sunday": 34.2
+          },
+          "source_ranges": {
+            "Weekday": "A238:I238",
+            "Saturday": "K186:S186",
+            "Sunday": "U175:AC175"
+          },
+          "access": "Direct / on-site stop",
+          "shuttle_needed": false,
+          "stop": "TOWER CENTER BLVD AT PARK & RIDE CROSSWALK#",
+          "straight_line_miles": 0.01416725268528572,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "njt GTFS cached 2026-09-11",
+          "service_url": "https://www.njtransit.com/bus_data.zip",
+          "missing": "All three day types supplied"
+        },
+        {
+          "operator": "NJ TRANSIT",
+          "feed": "njt",
+          "route": "68",
+          "group": "NJ TRANSIT",
+          "ridership": {
+            "Weekday": 461.72727272727275,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": "A42:I42",
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "NJ 18 AT EGGERS ST",
+          "straight_line_miles": 0.8873147440968875,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "njt GTFS cached 2026-09-11",
+          "service_url": "https://www.njtransit.com/bus_data.zip",
+          "missing": "Weekend rows not supplied"
+        },
+        {
+          "operator": "NJ TRANSIT",
+          "feed": "njt",
+          "route": "138",
+          "group": "NJ TRANSIT",
+          "ridership": {
+            "Weekday": 449.3636363636364,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": "A98:I98",
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "NJ 18 AT EGGERS ST",
+          "straight_line_miles": 0.8873147440968875,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances.",
+          "service_source": "njt GTFS cached 2026-09-11",
+          "service_url": "https://www.njtransit.com/bus_data.zip",
+          "missing": "Weekend rows not supplied"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "EE",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Henderson",
+          "straight_line_miles": 0.9294594030258924,
+          "note": "Henderson stop is across the Raritan River. Straight-line proximity does not imply a walkable connection.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "WKND1",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Henderson",
+          "straight_line_miles": 0.9294594030258924,
+          "note": "Henderson stop is across the Raritan River. Straight-line proximity does not imply a walkable connection.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "WKND2",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Henderson",
+          "straight_line_miles": 0.9294594030258924,
+          "note": "Henderson stop is across the Raritan River. Straight-line proximity does not imply a walkable connection.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        }
+      ]
+    },
+    "mary": {
+      "name": "Mary Ellis Burial Site",
+      "routes": [
+        {
+          "operator": "Suburban Transit",
+          "feed": "suburban",
+          "route": "100",
+          "group": "Commuter / longer-distance buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Neilson Parking Plaza",
+          "straight_line_miles": 0.6098975729723001,
+          "note": "Operator identity matters: Suburban lines 400 and 600 are not NJ TRANSIT routes 400 and 600. Timetable confirms Neilson stop; individual trips and current operation need operator confirmation.",
+          "service_source": "Coach USA / Suburban Line 100 timetable, effective May 27, 2025",
+          "service_url": "https://web.coachusa.com/CoachUsaAssets/files/99/route100.pdf",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Suburban Transit",
+          "feed": "suburban",
+          "route": "400",
+          "group": "Commuter / longer-distance buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Neilson Parking Plaza",
+          "straight_line_miles": 0.6098975729723001,
+          "note": "Operator identity matters: Suburban lines 400 and 600 are not NJ TRANSIT routes 400 and 600. Timetable confirms Neilson stop; individual trips and current operation need operator confirmation.",
+          "service_source": "Coach USA / Suburban Line 400 timetable, effective May 27, 2025",
+          "service_url": "https://web.coachusa.com/CoachUsaAssets/files/99/route400.pdf",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Suburban Transit",
+          "feed": "suburban",
+          "route": "500",
+          "group": "Commuter / longer-distance buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Neilson Parking Plaza",
+          "straight_line_miles": 0.6098975729723001,
+          "note": "Operator identity matters: Suburban lines 400 and 600 are not NJ TRANSIT routes 400 and 600. Timetable confirms Neilson stop; individual trips and current operation need operator confirmation.",
+          "service_source": "Coach USA / Suburban Line 500 timetable, effective May 27, 2025",
+          "service_url": "https://web.coachusa.com/CoachUsaAssets/files/99/route500.pdf",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Suburban Transit",
+          "feed": "suburban",
+          "route": "600",
+          "group": "Commuter / longer-distance buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Neilson Parking Plaza",
+          "straight_line_miles": 0.6098975729723001,
+          "note": "Operator identity matters: Suburban lines 400 and 600 are not NJ TRANSIT routes 400 and 600. Timetable confirms Neilson stop; individual trips and current operation need operator confirmation.",
+          "service_source": "Coach USA / Suburban Line 600 timetable, effective May 27, 2025",
+          "service_url": "https://web.coachusa.com/CoachUsaAssets/files/99/route600.pdf",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "NJ TRANSIT",
+          "feed": "njt",
+          "route": "810",
+          "group": "NJ TRANSIT",
+          "ridership": {
+            "Weekday": 466.6818181818182,
+            "Saturday": 401,
+            "Sunday": 214.6
+          },
+          "source_ranges": {
+            "Weekday": "A232:I232",
+            "Saturday": "K181:S181",
+            "Sunday": "U171:AC171"
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "RT-27 AT WOODBRIDGE AVE",
+          "straight_line_miles": 0.8971902865368016,
+          "note": "Pedestrian connection from the rear parking lot is not verified. Divided highway and indirect access require a shuttle/access design.",
+          "service_source": "njt GTFS cached 2026-09-11",
+          "service_url": "https://www.njtransit.com/bus_data.zip",
+          "missing": "All three day types supplied"
+        },
+        {
+          "operator": "NJ TRANSIT",
+          "feed": "njt",
+          "route": "814",
+          "group": "NJ TRANSIT",
+          "ridership": {
+            "Weekday": 565.9090909090909,
+            "Saturday": 257.25,
+            "Sunday": 124
+          },
+          "source_ranges": {
+            "Weekday": "A235:I235",
+            "Saturday": "K183:S183",
+            "Sunday": "U173:AC173"
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "WOODBRIDGE AVE AT S. ELEVENTH AVE",
+          "straight_line_miles": 0.8446780913674641,
+          "note": "Pedestrian connection from the rear parking lot is not verified. Divided highway and indirect access require a shuttle/access design.",
+          "service_source": "njt GTFS cached 2026-09-11",
+          "service_url": "https://www.njtransit.com/bus_data.zip",
+          "missing": "All three day types supplied"
+        },
+        {
+          "operator": "NJ TRANSIT",
+          "feed": "njt",
+          "route": "815",
+          "group": "NJ TRANSIT",
+          "ridership": {
+            "Weekday": 732.5454545454545,
+            "Saturday": 637.25,
+            "Sunday": 396.6
+          },
+          "source_ranges": {
+            "Weekday": "A236:I236",
+            "Saturday": "K184:S184",
+            "Sunday": "U174:AC174"
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "BURNET ST AT TUNISON RD",
+          "straight_line_miles": 0.36528268138767284,
+          "note": "Pedestrian connection from the rear parking lot is not verified. Divided highway and indirect access require a shuttle/access design.",
+          "service_source": "njt GTFS cached 2026-09-11",
+          "service_url": "https://www.njtransit.com/bus_data.zip",
+          "missing": "All three day types supplied"
+        },
+        {
+          "operator": "NJ TRANSIT",
+          "feed": "njt",
+          "route": "818",
+          "group": "NJ TRANSIT",
+          "ridership": {
+            "Weekday": 142.8181818181818,
+            "Saturday": 109.5,
+            "Sunday": 34.2
+          },
+          "source_ranges": {
+            "Weekday": "A238:I238",
+            "Saturday": "K186:S186",
+            "Sunday": "U175:AC175"
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "BURNET ST AT TUNISON RD",
+          "straight_line_miles": 0.36528268138767284,
+          "note": "Pedestrian connection from the rear parking lot is not verified. Divided highway and indirect access require a shuttle/access design.",
+          "service_source": "njt GTFS cached 2026-09-11",
+          "service_url": "https://www.njtransit.com/bus_data.zip",
+          "missing": "All three day types supplied"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "EE",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Henderson",
+          "straight_line_miles": 0.8711804400811354,
+          "note": "Pedestrian connection from the rear parking lot is not verified. Divided highway and indirect access require a shuttle/access design.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "WKND1",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Henderson",
+          "straight_line_miles": 0.8711804400811354,
+          "note": "Pedestrian connection from the rear parking lot is not verified. Divided highway and indirect access require a shuttle/access design.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Rutgers",
+          "feed": "rutgers",
+          "route": "WKND2",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Henderson",
+          "straight_line_miles": 0.8711804400811354,
+          "note": "Pedestrian connection from the rear parking lot is not verified. Divided highway and indirect access require a shuttle/access design.",
+          "service_source": "rutgers GTFS cached 2026-09-11",
+          "service_url": "https://rutgers.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+          "missing": "Route absent from supplied workbook"
+        }
+      ]
+    },
+    "8a": {
+      "name": "South Brunswick 8A P&R",
+      "routes": [
+        {
+          "operator": "Academy",
+          "feed": "academy",
+          "route": "721 / 8A (Line 300)",
+          "group": "Commuter / longer-distance buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Direct / on-site stop",
+          "shuttle_needed": false,
+          "stop": "South Brunswick - 8a Park and Ride",
+          "straight_line_miles": 0.0,
+          "note": "Distances are straight-line to the nearest scheduled stop, not walking distances. GTFS 721 corresponds to the 8A service family published as Line 300. Do not count those aliases twice.",
+          "service_source": "academy GTFS cached 2026-09-11",
+          "service_url": "https://www.njtransit.com/Academy_bus_data.zip",
+          "missing": "Route absent from supplied workbook"
+        }
+      ]
+    },
+    "molly": {
+      "name": "Molly Pitcher proposed P&R",
+      "routes": [
+        {
+          "operator": "Academy",
+          "feed": "academy",
+          "route": "721 / 8A (Line 300)",
+          "group": "Commuter / longer-distance buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Monroe Township - Park and Ride",
+          "straight_line_miles": 0.9622775085448997,
+          "note": "Requires a local shuttle and the assumed opening of gated local-road access; no existing Molly Pitcher boarding stop. GTFS 721 corresponds to the 8A service family published as Line 300. Do not count those aliases twice.",
+          "service_source": "academy GTFS cached 2026-09-11",
+          "service_url": "https://www.njtransit.com/Academy_bus_data.zip",
+          "missing": "Route absent from supplied workbook"
+        },
+        {
+          "operator": "Middlesex County RIDE",
+          "feed": "county",
+          "route": "M1",
+          "group": "University / local buses",
+          "ridership": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "source_ranges": {
+            "Weekday": null,
+            "Saturday": null,
+            "Sunday": null
+          },
+          "access": "Nearby stop; local shuttle needed",
+          "shuttle_needed": true,
+          "stop": "Gavett Dr. and Prospect Plains Rd.",
+          "straight_line_miles": 0.6380076307954464,
+          "note": "Gavett Drive / Prospect Plains Road is across the Turnpike. A local shuttle and approved Molly Pitcher rear access are needed. This stop appears only on selected scheduled trips.",
+          "service_source": "Middlesex County RIDE M1 timetable and county stop layer 13",
+          "service_url": "https://www.middlesexcountynj.gov/home/showpublisheddocument/8821/638876507711730000",
+          "missing": "Route absent from supplied workbook"
+        }
+      ]
+    }
+  }
+};
