@@ -1,0 +1,157 @@
+[
+  {
+    "path": ".nojekyll",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "index.html",
+    "bytes": 513,
+    "sha256": "aa4b462d731707b76dc979e673bdf9ce2a8c7fbd6b77374e0231342530c47232"
+  },
+  {
+    "path": "Interactive website/basemap-config.js",
+    "bytes": 98,
+    "sha256": "559cdb44eb56fcbcd6f9717ff1505fa09bc7ca76706aee22197e4462f779f1c6"
+  },
+  {
+    "path": "Interactive website/basemap.js",
+    "bytes": 4410,
+    "sha256": "394dfd0ca992ed3b20e256c964bd6a3fd3d1f478f726306028880867a5d36179"
+  },
+  {
+    "path": "Interactive website/index.html",
+    "bytes": 2866,
+    "sha256": "9a0c21efc6024f92a8baf2a191b8f3cef455ad37cb934c0c2cb9febb59d682f7"
+  },
+  {
+    "path": "Interactive website/Map setup.html",
+    "bytes": 1305,
+    "sha256": "d8aa6defaa7a2d38c0b0d6af2c20415172f98552a0f2392e5cdccdbe91776cf5"
+  },
+  {
+    "path": "Interactive website/Mary Ellis Burial Site/index.html",
+    "bytes": 1042523,
+    "sha256": "9916dde6ffac2ad8a0c36ec1d6c1e44cca3206e38a86ed4444273119654c8073"
+  },
+  {
+    "path": "Interactive website/Mary Ellis Burial Site/map-data.json",
+    "bytes": 1028535,
+    "sha256": "8212b125cf7c66821f277be7b5a60ca36ddfe3ffb895638dc68347e4e9ab6b78"
+  },
+  {
+    "path": "Interactive website/Mary Ellis Burial Site/Read Me.md",
+    "bytes": 3557,
+    "sha256": "d15cdb6d8067007358083a137accf0e8ae99f8c6794abff3d8faa333264724ad"
+  },
+  {
+    "path": "Interactive website/Mary Ellis Burial Site/Route Geometry.geojson",
+    "bytes": 392753,
+    "sha256": "b988db764c2180d8bc86f35e7087523e93840f46e27a3309514f01c967c933d5"
+  },
+  {
+    "path": "Interactive website/Mary Ellis Burial Site/Segment Provenance.csv",
+    "bytes": 34179,
+    "sha256": "8a12308e6f320204f99a4e4e4c830e7a98be156d9199c09b6771c48a368d7e99"
+  },
+  {
+    "path": "Interactive website/Neilson Plaza/index.html",
+    "bytes": 954183,
+    "sha256": "20d44f515054464620fa978b27841b0620753929bb444fd827cab6a49e435833"
+  },
+  {
+    "path": "Interactive website/Neilson Plaza/map-data.json",
+    "bytes": 936124,
+    "sha256": "f838201ab91fa3b91f92747a07d1de427d2bf12f3e4298c7efc146e0f8648e3e"
+  },
+  {
+    "path": "Interactive website/Neilson Plaza/Read Me.md",
+    "bytes": 3518,
+    "sha256": "6331f20435ea7d09948ce9b1a9b9d51d98c583a7a4df44ae45e1fddd793bebc3"
+  },
+  {
+    "path": "Interactive website/Neilson Plaza/Route Geometry.geojson",
+    "bytes": 334944,
+    "sha256": "3bbe8edd2afc6ac33474401627441733d149cc4c04765bf03b3cf1c3839db1d8"
+  },
+  {
+    "path": "Interactive website/Neilson Plaza/Segment Provenance.csv",
+    "bytes": 24876,
+    "sha256": "dfb9ecdd6919b184df0a95f298f4b623bdd6e73d73bfe24f86270db0b1ac11ab"
+  },
+  {
+    "path": "Route maps snapshots/1A - Concept 1 - Neilson Plaza - 300dpi.png",
+    "bytes": 5250234,
+    "sha256": "46dbb6b44a7bda038156de1ffc8697ab30a56238a8d91c87369fc2bd62f0b19e"
+  },
+  {
+    "path": "Route maps snapshots/1B - Concept 1 - Mary Ellis Burial Site - 300dpi.png",
+    "bytes": 5651829,
+    "sha256": "32eb5cf14bd0bafb8c5caeaf56db576ee18ce4f3f0f045d2fc54cd8d60de10f1"
+  },
+  {
+    "path": "Route maps snapshots/2A - Concept 2 - Neilson Plaza - 300dpi.png",
+    "bytes": 5426558,
+    "sha256": "65f941fc757554ce34551a67e8143dac8474acfe5093fc73e2ad4339df6a1f3e"
+  },
+  {
+    "path": "Route maps snapshots/2B - Concept 2 - Mary Ellis Burial Site - 300dpi.png",
+    "bytes": 5810534,
+    "sha256": "240263d6b9e14698b2937a0debaa823ca32dc393b9fe8ec0cad2d9cbcea16e16"
+  },
+  {
+    "path": "Route maps snapshots/3A - Concept 3 - Neilson Plaza - 300dpi.png",
+    "bytes": 5648095,
+    "sha256": "22777bc9dee16fc5ca45789208d2e2fcb2e109cbb5318a18a38e75587d6d36a3"
+  },
+  {
+    "path": "Route maps snapshots/3B - Concept 3 - Mary Ellis Burial Site - 300dpi.png",
+    "bytes": 6024193,
+    "sha256": "75337d08313afb5a498670efc362b03a8ea5752940cd931ed6f553b1db0db3bc"
+  },
+  {
+    "path": "Route maps snapshots/previews/1A.png",
+    "bytes": 914066,
+    "sha256": "7b5a07b8ec33f451b1859cb9e906a7333b96b42fcbc449d31228560923ce2f1d"
+  },
+  {
+    "path": "Route maps snapshots/previews/1B.png",
+    "bytes": 952945,
+    "sha256": "20c1cb48c96cca760f087f6039c2dc4cf0803ad34aeaecf8cee13e5a34142396"
+  },
+  {
+    "path": "Route maps snapshots/previews/2A.png",
+    "bytes": 885242,
+    "sha256": "c5003ae8460966b80ce716cf66f74ccb8bd595f9675c466824a4d412dacb09dd"
+  },
+  {
+    "path": "Route maps snapshots/previews/2B.png",
+    "bytes": 923481,
+    "sha256": "57b8bd8f2682463f34b8a6a89b98a7f8059e1347beb20ffd8601aa0f521c5773"
+  },
+  {
+    "path": "Route maps snapshots/previews/3A.png",
+    "bytes": 888250,
+    "sha256": "7cd1c07064c1fb183407bcd38660e48a4847b35c20f0824df09d39f2e6f035a6"
+  },
+  {
+    "path": "Route maps snapshots/previews/3B.png",
+    "bytes": 926069,
+    "sha256": "2c290fe03385a55355676be1c1e3a1d8a0bb11ebc7ca9b132a67832b7d16ed74"
+  },
+  {
+    "path": "Route maps snapshots/Six Route Snapshots - 300dpi.zip",
+    "bytes": 38457494,
+    "sha256": "bfc4bf0eaadb3fd58ad00f637a355bb134b4dfc303813032e8cba224b256cca4"
+  },
+  {
+    "path": "Route maps snapshots/Six Route Snapshots.html",
+    "bytes": 4376,
+    "sha256": "08deff8952ebfa98287f8ca574d9df4861d941892a9e40dd15731f53c39d28a8"
+  },
+  {
+    "path": "Route maps snapshots/Snapshot Index.json",
+    "bytes": 2176,
+    "sha256": "62e264d2c97fbe9890bbfc7855ef291c26d1c796f8b0720728e76a42615f5cc7"
+  }
+]

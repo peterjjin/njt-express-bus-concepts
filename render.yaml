@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: njt-express-bus-concepts
+    runtime: static
+    buildCommand: python3 validate_site.py
+    staticPublishPath: ./site
+    autoDeployTrigger: commit
+    headers:
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
