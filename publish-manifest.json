@@ -161,12 +161,92 @@
   },
   {
     "path": "Route maps snapshots/Six Route Snapshots.html",
-    "bytes": 4536,
-    "sha256": "3cd248bba4280a405af62f389cd4929cf4894701391af9a431a8f4b67cc5849f"
+    "bytes": 4682,
+    "sha256": "53ba1747bc32b7993a5b339801dbdaacfd1fe5f88b685f89d865888d4499743f"
   },
   {
     "path": "Route maps snapshots/Snapshot Index.json",
     "bytes": 2908,
     "sha256": "78a1f0cc920a492e295e3a796449e56aafccbafc52d422d4bd2a29f53220c50c"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/1A - Concept 1 - Neilson Plaza - 300dpi.png",
+    "bytes": 5630883,
+    "sha256": "1c6beef96514ce55fe8909173b30107ccefd10f758112cd52c214ee83f5c086d"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/1B - Concept 1 - Mary Ellis Burial Site - 300dpi.png",
+    "bytes": 6037129,
+    "sha256": "112124a2104fda5e066084138f79a5bb103a5c7dde50373a095a8add307b8bd2"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/2A - Concept 2 - Neilson Plaza - 300dpi.png",
+    "bytes": 5679240,
+    "sha256": "6e2661db0a89678ee31a8dbee057734a20b40b820cd16b99a6be098db02118f3"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/2B - Concept 2 - Mary Ellis Burial Site - 300dpi.png",
+    "bytes": 6070620,
+    "sha256": "7de1980cc5bc4cc1863299e1c7529ce67d91e6e5a129a3d7865986573ae16982"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/3A - Concept 3 - Neilson Plaza - 300dpi.png",
+    "bytes": 5922673,
+    "sha256": "5cd835f4b712e9e597791472496496d3fb534085569b5857c62ab22dd4ed179f"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/3B - Concept 3 - Mary Ellis Burial Site - 300dpi.png",
+    "bytes": 6307820,
+    "sha256": "3b516b2fce625f9405f7ecb9725f6c044633d9f3b09c878a57ef827bddf8aa85"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/Bus connections data.json",
+    "bytes": 62036,
+    "sha256": "5141c642ca91d6ed23fcc326c37a01d1f753b2d400a06fe6ec6f6515635818dd"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/index.html",
+    "bytes": 3705,
+    "sha256": "1b15245f153af868d5cac4c64f9a217fc7dcc8f8b334e6b4a375c453acdc1cf8"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/previews/1A.png",
+    "bytes": 997906,
+    "sha256": "e5394d04c5f784088644cafe2ff80292eb8533acb2e109973393ca15575ef8c4"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/previews/1B.png",
+    "bytes": 1037015,
+    "sha256": "fe7f9b3221fa057d97238fcc03c247566773f3be9963b854ece6c2c4b54bb5db"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/previews/2A.png",
+    "bytes": 941569,
+    "sha256": "83060fbe02ca1df3b23af1e9a587fc6e79370695cd7eccb64f72bd5655462d1e"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/previews/2B.png",
+    "bytes": 981188,
+    "sha256": "bc3d842f6dce5b4ea1df6b21943ac23553d59cc89e3a5a049da0193a98c5abf5"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/previews/3A.png",
+    "bytes": 950299,
+    "sha256": "48dd7b1f6f32e4a1c105ff70ffdd6e03ac5f052d773b6bb692a0d2301851f356"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/previews/3B.png",
+    "bytes": 989596,
+    "sha256": "14a1b1380d71c5074ff3aab8a1a21beef4b189175c5a65d2170139e08ae96a5f"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/Six Compact Bus Ridership Snapshots - 300dpi.zip",
+    "bytes": 40528990,
+    "sha256": "adf11c40b307ae0ae9fd4f9a9eea4d5f6eab0a8d8dde374b4d4463ff24f39a5d"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/Snapshot Index.json",
+    "bytes": 2902,
+    "sha256": "c271222056feaf27147649ba00dda879e7cc09a3f10722f98fc5062f15718341"
   }
 ]
