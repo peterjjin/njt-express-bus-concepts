@@ -6,7 +6,11 @@
     "place": "Neilson Plaza",
     "filename": "1A - Concept 1 - Neilson Plaza - 300dpi.png",
     "title": "1A  |  Concept 1 — Rutgers → Secaucus Junction",
-    "note": "Final boarding bay and operating agreement require confirmation."
+    "note": "Final boarding bay and operating agreement require confirmation.",
+    "export_date": "2026-09-11",
+    "existing_bus_overlays": false,
+    "ridership_callouts": false,
+    "dpi": 300
   },
   {
     "code": "1B",
@@ -15,7 +19,11 @@
     "place": "Mary Ellis Burial Site",
     "filename": "1B - Concept 1 - Mary Ellis Burial Site - 300dpi.png",
     "title": "1B  |  Concept 1 — Rutgers → Secaucus Junction",
-    "note": "Proposed parking / pickup is outside the burial plot."
+    "note": "Proposed parking / pickup is outside the burial plot.",
+    "export_date": "2026-09-11",
+    "existing_bus_overlays": false,
+    "ridership_callouts": false,
+    "dpi": 300
   },
   {
     "code": "2A",
@@ -24,7 +32,11 @@
     "place": "Neilson Plaza",
     "filename": "2A - Concept 2 - Neilson Plaza - 300dpi.png",
     "title": "2A  |  Concept 2 — 8A P&R → Secaucus Junction",
-    "note": "Final boarding bay and operating agreement require confirmation."
+    "note": "Final boarding bay and operating agreement require confirmation.",
+    "export_date": "2026-09-11",
+    "existing_bus_overlays": false,
+    "ridership_callouts": false,
+    "dpi": 300
   },
   {
     "code": "2B",
@@ -33,7 +45,11 @@
     "place": "Mary Ellis Burial Site",
     "filename": "2B - Concept 2 - Mary Ellis Burial Site - 300dpi.png",
     "title": "2B  |  Concept 2 — 8A P&R → Secaucus Junction",
-    "note": "Proposed parking / pickup is outside the burial plot."
+    "note": "Proposed parking / pickup is outside the burial plot.",
+    "export_date": "2026-09-11",
+    "existing_bus_overlays": false,
+    "ridership_callouts": false,
+    "dpi": 300
   },
   {
     "code": "3A",
@@ -42,7 +58,11 @@
     "place": "Neilson Plaza",
     "filename": "3A - Concept 3 - Neilson Plaza - 300dpi.png",
     "title": "3A  |  Concept 3 — Molly Pitcher / Exit 8 → Secaucus Junction",
-    "note": "Southbound service area: local gate opening / P&R use unapproved; no direct northbound service-area ramp assumed. Final boarding bay and operating agreement require confirmation."
+    "note": "Southbound service area: local gate opening / P&R use unapproved; no direct northbound service-area ramp assumed. Final boarding bay and operating agreement require confirmation.",
+    "export_date": "2026-09-11",
+    "existing_bus_overlays": false,
+    "ridership_callouts": false,
+    "dpi": 300
   },
   {
     "code": "3B",
@@ -51,6 +71,10 @@
     "place": "Mary Ellis Burial Site",
     "filename": "3B - Concept 3 - Mary Ellis Burial Site - 300dpi.png",
     "title": "3B  |  Concept 3 — Molly Pitcher / Exit 8 → Secaucus Junction",
-    "note": "Southbound service area: local gate opening / P&R use unapproved; no direct northbound service-area ramp assumed. Proposed parking / pickup is outside the burial plot."
+    "note": "Southbound service area: local gate opening / P&R use unapproved; no direct northbound service-area ramp assumed. Proposed parking / pickup is outside the burial plot.",
+    "export_date": "2026-09-11",
+    "existing_bus_overlays": false,
+    "ridership_callouts": false,
+    "dpi": 300
   }
 ]

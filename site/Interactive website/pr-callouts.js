@@ -12,7 +12,8 @@
   function contents(id) {
     const site = data.sites[id];
     let html = '<div class="pr-ridership-date">May 2024 · average riders/day, entire route</div>';
-    html += '<p class="pr-scope">Not P&R boardings or projected express-bus demand. N/A = not supplied, not zero or proof of no service.</p>';
+    html += '<p class="pr-scope">Not site boardings or projected express-bus demand. N/A = not supplied, not zero or proof of no service.</p>';
+    if(site.review_note) html += '<details class="pr-sources"><summary>Downtown service verification notes</summary><p>'+escape(site.review_note)+'</p></details>';
     html += '<div class="pr-table-scroll" tabindex="0" aria-label="Bus routes and ridership; scroll for all services">';
     for (const group of groups) {
       const rows = site.routes.filter(row => row.group === group);
@@ -22,7 +23,7 @@
       for (const row of rows) {
         const operator = row.feed === 'njt' ? 'NJT' : row.operator;
         const access = row.shuttle_needed ? 'Local shuttle needed' : row.access;
-        const distance = row.straight_line_miles.toFixed(2)+' mi to nearest stop (straight-line)';
+        const distance = row.straight_line_miles===null?'Exact curb distance not verified':row.straight_line_miles.toFixed(2)+' mi to nearest stop (straight-line)';
         html += '<tr><th scope="row"><span class="pr-operator">'+escape(operator)+'</span> '+escape(row.route)+'</th>';
         for (const day of ['Weekday','Saturday','Sunday']) html += '<td title="'+escape(day+(row.source_ranges[day]?' · '+data.source_sheet+'!'+row.source_ranges[day]:' · Ridership not supplied'))+'">'+number(row.ridership[day])+'</td>';
         html += '</tr><tr class="pr-access-row"><td colspan="4"><span class="'+(row.shuttle_needed?'pr-shuttle':'pr-direct')+'">'+escape(access)+'</span><details><summary>Stop / source details</summary><p>'+escape(row.stop)+'<br>'+escape(distance)+'</p><p>'+escape(row.note)+'</p><p><a href="'+escape(row.service_url)+'" target="_blank" rel="noopener">'+escape(row.service_source)+'</a></p><p>'+escape(sheetRef(row)||'Ridership unavailable in the supplied workbook.')+'</p></details></td></tr>';
@@ -41,7 +42,7 @@
   panel.onAdd = () => {
     const el = L.DomUtil.create('details','pr-panel');
     el.open = innerWidth >= 900;
-    el.innerHTML = '<summary>P&R bus connections & ridership</summary><label>Park-and-ride site<select aria-label="P&R bus connections site"></select></label><div class="pr-panel-body"></div>';
+    el.innerHTML = '<summary>Bus connections & ridership</summary><label>Concept stop / park-and-ride site<select aria-label="Bus connections site"></select></label><div class="pr-panel-body"></div>';
     select = el.querySelector('select'); body = el.querySelector('.pr-panel-body');
     select.onchange = () => {selection=select.value;body.innerHTML=contents(selection);};
     L.DomEvent.disableClickPropagation(el); L.DomEvent.disableScrollPropagation(el);
@@ -49,7 +50,7 @@
   };
   panel.addTo(maps[0]);
   function update() {
-    const sites = view==='c1'?['stadium',exit9]:view==='c2'?['8a',exit9]:view==='c3'?['molly','8a',exit9]:['stadium','8a','molly',exit9];
+    const sites = view==='c1'?['stadium','helix',exit9]:view==='c2'?['8a',exit9]:view==='c3'?['molly','8a',exit9]:['stadium','helix','8a','molly',exit9];
     if (!sites.includes(selection)) selection=sites[0];
     select.innerHTML = sites.map(id => {
       const optional = (id===exit9&&['c2','c3'].includes(view))||(id==='8a'&&view==='c3');
