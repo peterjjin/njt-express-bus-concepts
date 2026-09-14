@@ -1,191 +1,535 @@
-﻿concept,variant,name,kind,feed,routes,shape_id,start_vertex,end_vertex,source,miles
-c1,core,Stadium West Lot → Route 18 (Rutgers H),GTFS,rutgers,H,056d1ee1-f01f-46d8-9996-0b27ae5eeb51,157,399,,1.653
-c1,core,Route 18 → Albany @ George (Rutgers HLX segment),GTFS,rutgers,HLX,3b1f0071-58a3-4f88-b8a1-e962adef461d,221,336,,0.762
-c1,core,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.0
-c1,core,Albany @ George → Burnet Street on-ramp → Route 18 south,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; user-directed Burnet Street access; coach suitability to review,1.244
-c1,core,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.004
-c1,core,Route 18 south → Neilson Plaza (NJ TRANSIT 818),GTFS,njt,818,3434,114,202,,1.476
-c1,core,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.013
-c1,core,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.173
-c1,core,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.01
-c1,core,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.034
-c1,core,State Route 18,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.022
-c1,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.396
-c1,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.284
-c1,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.366
-c1,core,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,22.108
-c1,core,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
-c1,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
-c1,core,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
-c1,core,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
-c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.063
-c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.098
-c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.064
-c2,core,Forsgate Drive,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.842
-c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.448
-c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.13
-c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.426
-c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.541
-c2,core,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,31.543
-c2,core,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
-c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
-c2,core,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
-c2,core,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.063
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.098
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.064
-c2,optional,Forsgate Drive,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.842
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.448
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.13
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.426
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.541
-c2,optional,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,8.918
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.723
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.217
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.096
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.023
-c2,optional,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.028
-c2,optional,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.173
-c2,optional,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.01
-c2,optional,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.034
-c2,optional,State Route 18,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.022
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.396
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.284
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.366
-c2,optional,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,22.108
-c2,optional,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
-c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
-c2,optional,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
-c2,optional,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
-c3,core,Proposed pickup to rear gate (assumed access),Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.051
-c3,core,Private rear service road: assumed gate opening,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.177
-c3,core,Service road to Half Acre Road: assumed gate/security changes,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.236
-c3,core,Short source alignment join,Shape join,,,,,,Geometry alignment under 35 m,0.0
-c3,core,Half Acre Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.944
-c3,core,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.032
-c3,core,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.641
-c3,core,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.29
-c3,core,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.795
-c3,core,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.792
-c3,core,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.131
-c3,core,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.38
-c3,core,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,6.289
-c3,core,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,31.543
-c3,core,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
-c3,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
-c3,core,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
-c3,core,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
-c3,optional,Proposed pickup to rear gate (assumed access),Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.051
-c3,optional,Private rear service road: assumed gate opening,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.177
-c3,optional,Service road to Half Acre Road: assumed gate/security changes,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.236
-c3,optional,Short source alignment join,Shape join,,,,,,Geometry alignment under 35 m,0.0
-c3,optional,Half Acre Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.944
-c3,optional,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.032
-c3,optional,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.641
-c3,optional,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.29
-c3,optional,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.795
-c3,optional,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.792
-c3,optional,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.131
-c3,optional,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.38
-c3,optional,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,6.289
-c3,optional,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,8.918
-c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.723
-c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.217
-c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.096
-c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.023
-c3,optional,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.028
-c3,optional,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.173
-c3,optional,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.01
-c3,optional,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.034
-c3,optional,State Route 18,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.022
-c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.396
-c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.284
-c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.366
-c3,optional,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,22.108
-c3,optional,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
-c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
-c3,optional,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
-c3,optional,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
-c3,optional_8a,Proposed pickup to rear gate (assumed access),Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.051
-c3,optional_8a,Private rear service road: assumed gate opening,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.177
-c3,optional_8a,Service road to Half Acre Road: assumed gate/security changes,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.236
-c3,optional_8a,Short source alignment join,Shape join,,,,,,Geometry alignment under 35 m,0.0
-c3,optional_8a,Half Acre Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.944
-c3,optional_8a,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.032
-c3,optional_8a,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.641
-c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.29
-c3,optional_8a,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.795
-c3,optional_8a,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.792
-c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.131
-c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.38
-c3,optional_8a,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,4.451
-c3,optional_8a,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.284
-c3,optional_8a,Exit 8A,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.922
-c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.412
-c3,optional_8a,Cranbury-South River Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.211
-c3,optional_8a,Forsgate Drive,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.882
-c3,optional_8a,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.161
-c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.113
-c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.093
-c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.06
-c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.063
-c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.098
-c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.064
-c3,optional_8a,Forsgate Drive,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.842
-c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.448
-c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.13
-c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.426
-c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.541
-c3,optional_8a,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,31.543
-c3,optional_8a,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
-c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
-c3,optional_8a,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
-c3,optional_8a,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
-c3,optional_both,Proposed pickup to rear gate (assumed access),Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.051
-c3,optional_both,Private rear service road: assumed gate opening,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.177
-c3,optional_both,Service road to Half Acre Road: assumed gate/security changes,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.236
-c3,optional_both,Short source alignment join,Shape join,,,,,,Geometry alignment under 35 m,0.0
-c3,optional_both,Half Acre Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.944
-c3,optional_both,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.032
-c3,optional_both,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.641
-c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.29
-c3,optional_both,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.795
-c3,optional_both,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.792
-c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.131
-c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.38
-c3,optional_both,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,4.451
-c3,optional_both,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.284
-c3,optional_both,Exit 8A,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.922
-c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.412
-c3,optional_both,Cranbury-South River Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.211
-c3,optional_both,Forsgate Drive,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.882
-c3,optional_both,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.161
-c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.113
-c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.093
-c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.06
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.063
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.098
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.064
-c3,optional_both,Forsgate Drive,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.842
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.448
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.13
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.426
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.541
-c3,optional_both,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,8.918
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.723
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.217
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.096
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.023
-c3,optional_both,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.028
-c3,optional_both,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.173
-c3,optional_both,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.01
-c3,optional_both,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.034
-c3,optional_both,State Route 18,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.022
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.396
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.284
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.366
-c3,optional_both,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,22.108
-c3,optional_both,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
-c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
-c3,optional_both,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
-c3,optional_both,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+﻿concept,variant,name,kind,feed,routes,shape_id,start_vertex,end_vertex,source,miles
+c1,core,Stadium West Lot → Route 18 (Rutgers H),GTFS,rutgers,H,056d1ee1-f01f-46d8-9996-0b27ae5eeb51,157,399,,1.653
+c1,core,Route 18 → Albany @ George (Rutgers HLX segment),GTFS,rutgers,HLX,3b1f0071-58a3-4f88-b8a1-e962adef461d,221,336,,0.762
+c1,core,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.0
+c1,core,Albany @ George → Burnet Street on-ramp → Route 18 south,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; user-directed Burnet Street access; coach suitability to review,1.244
+c1,core,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.004
+c1,core,Route 18 south → Neilson Plaza (NJ TRANSIT 818),GTFS,njt,818,3434,114,202,,1.476
+c1,core,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.013
+c1,core,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.173
+c1,core,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.01
+c1,core,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.034
+c1,core,State Route 18,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.022
+c1,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.396
+c1,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.284
+c1,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.366
+c1,core,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,22.108
+c1,core,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c1,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c1,core,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c1,core,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+c1,core_edison,Stadium West Lot → Route 18 (Rutgers H),GTFS,rutgers,H,056d1ee1-f01f-46d8-9996-0b27ae5eeb51,157,399,,1.653
+c1,core_edison,Route 18 → Albany @ George (Rutgers HLX segment),GTFS,rutgers,HLX,3b1f0071-58a3-4f88-b8a1-e962adef461d,221,336,,0.762
+c1,core_edison,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.0
+c1,core_edison,Albany @ George → Burnet Street on-ramp → Route 18 south,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; user-directed Burnet Street access; coach suitability to review,1.244
+c1,core_edison,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.004
+c1,core_edison,Route 18 south → Neilson Plaza (NJ TRANSIT 818),GTFS,njt,818,3434,114,202,,1.476
+c1,core_edison,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.013
+c1,core_edison,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.173
+c1,core_edison,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.01
+c1,core_edison,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.034
+c1,core_edison,State Route 18,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.022
+c1,core_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.396
+c1,core_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.284
+c1,core_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.366
+c1,core_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.605
+c1,core_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,1.715
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.322
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.14
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.316
+c1,core_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.196
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.358
+c1,core_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.203
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c1,core_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.151
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.053
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.18
+c1,core_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.153
+c1,core_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.113
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.41
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.181
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.226
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.139
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.05
+c1,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.306
+c1,core_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,2.679
+c1,core_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,14.708
+c1,core_edison,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c1,core_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c1,core_edison,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c1,core_edison,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.063
+c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.098
+c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.064
+c2,core,Forsgate Drive,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.842
+c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.448
+c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.13
+c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.426
+c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.541
+c2,core,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,31.543
+c2,core,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c2,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c2,core,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c2,core,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.063
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.098
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.064
+c2,optional,Forsgate Drive,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.842
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.448
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.13
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.426
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.541
+c2,optional,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,8.918
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.723
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.217
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.096
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.023
+c2,optional,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.028
+c2,optional,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.173
+c2,optional,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.01
+c2,optional,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.034
+c2,optional,State Route 18,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.022
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.396
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.284
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.366
+c2,optional,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,22.108
+c2,optional,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c2,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c2,optional,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c2,optional,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+c2,core_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.063
+c2,core_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.098
+c2,core_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.064
+c2,core_edison,Forsgate Drive,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.842
+c2,core_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.448
+c2,core_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.13
+c2,core_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.426
+c2,core_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.541
+c2,core_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,12.041
+c2,core_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,1.715
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.322
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.14
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.316
+c2,core_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.196
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.358
+c2,core_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.203
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c2,core_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.151
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.053
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.18
+c2,core_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.153
+c2,core_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.113
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.41
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.181
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.226
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.139
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.05
+c2,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.306
+c2,core_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,2.679
+c2,core_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,14.708
+c2,core_edison,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c2,core_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c2,core_edison,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c2,core_edison,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.063
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.098
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.064
+c2,optional_edison,Forsgate Drive,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.842
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.448
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.13
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.426
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.541
+c2,optional_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,8.918
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.723
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.217
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.096
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.023
+c2,optional_edison,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.028
+c2,optional_edison,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.173
+c2,optional_edison,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.01
+c2,optional_edison,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.034
+c2,optional_edison,State Route 18,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.022
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.396
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.284
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.366
+c2,optional_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.605
+c2,optional_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,1.715
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.322
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.14
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.316
+c2,optional_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.196
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.358
+c2,optional_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.203
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c2,optional_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.151
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.053
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.18
+c2,optional_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.153
+c2,optional_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.113
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.41
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.181
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.226
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.139
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.05
+c2,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.306
+c2,optional_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,2.679
+c2,optional_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,14.708
+c2,optional_edison,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c2,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c2,optional_edison,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c2,optional_edison,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+c3,core,Proposed pickup to rear gate (assumed access),Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.051
+c3,core,Private rear service road: assumed gate opening,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.177
+c3,core,Service road to Half Acre Road: assumed gate/security changes,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.236
+c3,core,Short source alignment join,Shape join,,,,,,Geometry alignment under 35 m,0.0
+c3,core,Half Acre Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.944
+c3,core,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.032
+c3,core,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.641
+c3,core,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.29
+c3,core,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.795
+c3,core,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.792
+c3,core,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.131
+c3,core,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.38
+c3,core,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,6.289
+c3,core,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,31.543
+c3,core,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c3,core,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c3,core,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c3,core,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+c3,optional,Proposed pickup to rear gate (assumed access),Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.051
+c3,optional,Private rear service road: assumed gate opening,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.177
+c3,optional,Service road to Half Acre Road: assumed gate/security changes,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.236
+c3,optional,Short source alignment join,Shape join,,,,,,Geometry alignment under 35 m,0.0
+c3,optional,Half Acre Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.944
+c3,optional,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.032
+c3,optional,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.641
+c3,optional,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.29
+c3,optional,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.795
+c3,optional,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.792
+c3,optional,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.131
+c3,optional,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.38
+c3,optional,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,6.289
+c3,optional,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,8.918
+c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.723
+c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.217
+c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.096
+c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.023
+c3,optional,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.028
+c3,optional,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.173
+c3,optional,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.01
+c3,optional,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.034
+c3,optional,State Route 18,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.022
+c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.396
+c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.284
+c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.366
+c3,optional,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,22.108
+c3,optional,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c3,optional,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c3,optional,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c3,optional,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+c3,optional_8a,Proposed pickup to rear gate (assumed access),Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.051
+c3,optional_8a,Private rear service road: assumed gate opening,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.177
+c3,optional_8a,Service road to Half Acre Road: assumed gate/security changes,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.236
+c3,optional_8a,Short source alignment join,Shape join,,,,,,Geometry alignment under 35 m,0.0
+c3,optional_8a,Half Acre Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.944
+c3,optional_8a,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.032
+c3,optional_8a,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.641
+c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.29
+c3,optional_8a,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.795
+c3,optional_8a,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.792
+c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.131
+c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.38
+c3,optional_8a,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,4.451
+c3,optional_8a,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.284
+c3,optional_8a,Exit 8A,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.922
+c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.412
+c3,optional_8a,Cranbury-South River Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.211
+c3,optional_8a,Forsgate Drive,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.882
+c3,optional_8a,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.161
+c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.113
+c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.093
+c3,optional_8a,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.06
+c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.063
+c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.098
+c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.064
+c3,optional_8a,Forsgate Drive,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.842
+c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.448
+c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.13
+c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.426
+c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.541
+c3,optional_8a,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,31.543
+c3,optional_8a,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c3,optional_8a,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c3,optional_8a,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c3,optional_8a,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+c3,optional_both,Proposed pickup to rear gate (assumed access),Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.051
+c3,optional_both,Private rear service road: assumed gate opening,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.177
+c3,optional_both,Service road to Half Acre Road: assumed gate/security changes,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.236
+c3,optional_both,Short source alignment join,Shape join,,,,,,Geometry alignment under 35 m,0.0
+c3,optional_both,Half Acre Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.944
+c3,optional_both,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.032
+c3,optional_both,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.641
+c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.29
+c3,optional_both,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.795
+c3,optional_both,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.792
+c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.131
+c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.38
+c3,optional_both,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,4.451
+c3,optional_both,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.284
+c3,optional_both,Exit 8A,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.922
+c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.412
+c3,optional_both,Cranbury-South River Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.211
+c3,optional_both,Forsgate Drive,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.882
+c3,optional_both,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.161
+c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.113
+c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.093
+c3,optional_both,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.06
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.063
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.098
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.064
+c3,optional_both,Forsgate Drive,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.842
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.448
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.13
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.426
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.541
+c3,optional_both,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,8.918
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.723
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.217
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.096
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.023
+c3,optional_both,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.028
+c3,optional_both,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.173
+c3,optional_both,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.01
+c3,optional_both,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.034
+c3,optional_both,State Route 18,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.022
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.396
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.284
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.366
+c3,optional_both,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,22.108
+c3,optional_both,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c3,optional_both,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c3,optional_both,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c3,optional_both,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+c3,core_edison,Proposed pickup to rear gate (assumed access),Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.051
+c3,core_edison,Private rear service road: assumed gate opening,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.177
+c3,core_edison,Service road to Half Acre Road: assumed gate/security changes,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.236
+c3,core_edison,Short source alignment join,Shape join,,,,,,Geometry alignment under 35 m,0.0
+c3,core_edison,Half Acre Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.944
+c3,core_edison,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.032
+c3,core_edison,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.641
+c3,core_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.29
+c3,core_edison,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.795
+c3,core_edison,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.792
+c3,core_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.131
+c3,core_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.38
+c3,core_edison,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,6.289
+c3,core_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,12.041
+c3,core_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,1.715
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.322
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.14
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.316
+c3,core_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.196
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.358
+c3,core_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.203
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c3,core_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.151
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.053
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.18
+c3,core_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.153
+c3,core_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.113
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.41
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.181
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.226
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.139
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.05
+c3,core_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.306
+c3,core_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,2.679
+c3,core_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,14.708
+c3,core_edison,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c3,core_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c3,core_edison,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c3,core_edison,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+c3,optional_edison,Proposed pickup to rear gate (assumed access),Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.051
+c3,optional_edison,Private rear service road: assumed gate opening,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.177
+c3,optional_edison,Service road to Half Acre Road: assumed gate/security changes,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.236
+c3,optional_edison,Short source alignment join,Shape join,,,,,,Geometry alignment under 35 m,0.0
+c3,optional_edison,Half Acre Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.944
+c3,optional_edison,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.032
+c3,optional_edison,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.641
+c3,optional_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.29
+c3,optional_edison,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.795
+c3,optional_edison,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.792
+c3,optional_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.131
+c3,optional_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.38
+c3,optional_edison,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,6.289
+c3,optional_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,8.918
+c3,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.723
+c3,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.217
+c3,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.096
+c3,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.023
+c3,optional_edison,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.028
+c3,optional_edison,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.173
+c3,optional_edison,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.01
+c3,optional_edison,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.034
+c3,optional_edison,State Route 18,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.022
+c3,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.396
+c3,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.284
+c3,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.366
+c3,optional_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.605
+c3,optional_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,1.715
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.322
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.14
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.316
+c3,optional_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.196
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.358
+c3,optional_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.203
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c3,optional_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.151
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.053
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.18
+c3,optional_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.153
+c3,optional_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.113
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.41
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.181
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.226
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.139
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.05
+c3,optional_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.306
+c3,optional_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,2.679
+c3,optional_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,14.708
+c3,optional_edison,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c3,optional_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c3,optional_edison,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c3,optional_edison,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+c3,optional_8a_edison,Proposed pickup to rear gate (assumed access),Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.051
+c3,optional_8a_edison,Private rear service road: assumed gate opening,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.177
+c3,optional_8a_edison,Service road to Half Acre Road: assumed gate/security changes,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.236
+c3,optional_8a_edison,Short source alignment join,Shape join,,,,,,Geometry alignment under 35 m,0.0
+c3,optional_8a_edison,Half Acre Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.944
+c3,optional_8a_edison,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.032
+c3,optional_8a_edison,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.641
+c3,optional_8a_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.29
+c3,optional_8a_edison,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.795
+c3,optional_8a_edison,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.792
+c3,optional_8a_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.131
+c3,optional_8a_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.38
+c3,optional_8a_edison,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,4.451
+c3,optional_8a_edison,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.284
+c3,optional_8a_edison,Exit 8A,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.922
+c3,optional_8a_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.412
+c3,optional_8a_edison,Cranbury-South River Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.211
+c3,optional_8a_edison,Forsgate Drive,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.882
+c3,optional_8a_edison,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.161
+c3,optional_8a_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.113
+c3,optional_8a_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.093
+c3,optional_8a_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.06
+c3,optional_8a_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.063
+c3,optional_8a_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.098
+c3,optional_8a_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.064
+c3,optional_8a_edison,Forsgate Drive,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.842
+c3,optional_8a_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.448
+c3,optional_8a_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.13
+c3,optional_8a_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.426
+c3,optional_8a_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.541
+c3,optional_8a_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,12.041
+c3,optional_8a_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,1.715
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.322
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.14
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.316
+c3,optional_8a_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.196
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.358
+c3,optional_8a_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.203
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c3,optional_8a_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.151
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.053
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.18
+c3,optional_8a_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.153
+c3,optional_8a_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.113
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.41
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.181
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.226
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.139
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.05
+c3,optional_8a_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.306
+c3,optional_8a_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,2.679
+c3,optional_8a_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,14.708
+c3,optional_8a_edison,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c3,optional_8a_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c3,optional_8a_edison,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c3,optional_8a_edison,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075
+c3,optional_both_edison,Proposed pickup to rear gate (assumed access),Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.051
+c3,optional_both_edison,Private rear service road: assumed gate opening,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.177
+c3,optional_both_edison,Service road to Half Acre Road: assumed gate/security changes,Assumed access,,,,,,"OSM ways 88982888, 614254063 (private), 42676561; gated access opening assumed by user; not approved/public access",0.236
+c3,optional_both_edison,Short source alignment join,Shape join,,,,,,Geometry alignment under 35 m,0.0
+c3,optional_both_edison,Half Acre Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.944
+c3,optional_both_edison,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.032
+c3,optional_both_edison,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.641
+c3,optional_both_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.29
+c3,optional_both_edison,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.795
+c3,optional_both_edison,Hightstown Bypass,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.792
+c3,optional_both_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.131
+c3,optional_both_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.38
+c3,optional_both_edison,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,4.451
+c3,optional_both_edison,New Jersey Turnpike,Turnpike,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,1.284
+c3,optional_both_edison,Exit 8A,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.922
+c3,optional_both_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.412
+c3,optional_both_edison,Cranbury-South River Road,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.211
+c3,optional_both_edison,Forsgate Drive,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.882
+c3,optional_both_edison,US 130,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.161
+c3,optional_both_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.113
+c3,optional_both_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.093
+c3,optional_both_edison,Interchange ramp,Road connector,,,,,,OSM / OSRM car-routing geometry; coach suitability unverified,0.06
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.063
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.098
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.064
+c3,optional_both_edison,Forsgate Drive,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.842
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.448
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.13
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.426
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.541
+c3,optional_both_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,8.918
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.723
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.217
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.096
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.023
+c3,optional_both_edison,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.028
+c3,optional_both_edison,Tower Center Boulevard,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.173
+c3,optional_both_edison,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.01
+c3,optional_both_edison,Naricon Place,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.034
+c3,optional_both_edison,State Route 18,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.022
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.396
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.284
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,0.366
+c3,optional_both_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.605
+c3,optional_both_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,1.715
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.322
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.14
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.316
+c3,optional_both_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.196
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.358
+c3,optional_both_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.203
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.11
+c3,optional_both_edison,King Georges Road,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.151
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.053
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.18
+c3,optional_both_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.153
+c3,optional_both_edison,Woodbridge Avenue,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.113
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.41
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.181
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.226
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.139
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.05
+c3,optional_both_edison,Exit 10 / parking access,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,0.306
+c3,optional_both_edison,New Jersey Turnpike,Edison Exit 10 connector,,,,,,OpenStreetMap node 4843447022; OSRM driving profile; local site access unverified,2.679
+c3,optional_both_edison,New Jersey Turnpike,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,14.708
+c3,optional_both_edison,New Jersey Turnpike Eastern Spur,Turnpike,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,4.838
+c3,optional_both_edison,Ramp / connecting roadway,Road connector,,,,,,OpenStreetMap / OSRM driving geometry; bus suitability not certified,2.061
+c3,optional_both_edison,GTFS shape join (under 35 m),Shape join,,,,,,Short geometry alignment join; operational review required,0.001
+c3,optional_both_edison,Secaucus Junction approach (NJ TRANSIT 124),GTFS,njt,124,375,465,468,,0.075

@@ -2,15 +2,15 @@
 
 ## Concept 1 · Rutgers → Secaucus Junction
 
-Stadium West Lot → Route 18 → Albany @ George (HELIX access) → Burnet Street on-ramp → Route 18 south → Neilson Plaza → Exit 9 → NJ Turnpike → Exit 15X → Secaucus Junction. Uses Rutgers H/HLX, NJ TRANSIT 818 and 124 geometry where applicable. No intermediate source-route stops are proposed.
+Stadium West Lot → Route 18 → Albany @ George (HELIX access) → Burnet Street on-ramp → Route 18 south → Neilson Plaza → Exit 9 → NJ Turnpike → Exit 15X → Secaucus Junction. Uses Rutgers H/HLX, NJ TRANSIT 818 and 124 geometry where applicable. No intermediate source-route stops are proposed. Optional final pickup: Harold's New York Deli parking lot in Edison via Exit 10, before continuing north to Secaucus Junction.
 
 ## Concept 2 · 8A P&R → Secaucus Junction
 
-South Brunswick 8A P&R → Exit 8A → NJ Turnpike → Exit 15X → Secaucus Junction. Optional diversion exits at 9, calls at Neilson Plaza, and re-enters at 9. This is an off-highway P&R stop, not a stop on the exit ramp.
+South Brunswick 8A P&R → Exit 8A → NJ Turnpike → Exit 15X → Secaucus Junction. Optional diversion exits at 9, calls at Neilson Plaza, and re-enters at 9. This is an off-highway P&R stop, not a stop on the exit ramp. Optional final pickup: Harold's New York Deli parking lot in Edison via Exit 10, before continuing north to Secaucus Junction.
 
 ## Concept 3 · Molly Pitcher P&R via Exit 8
 
-Proposed Molly Pitcher Service Area P&R → assumed rear-gate opening → Half Acre Road → US 130 → Route 133 → Turnpike Exit 8 northbound → Secaucus Junction. Optional pickups: South Brunswick Exit 8A P&R and Neilson Plaza at Exit 9. No direct northbound entry from the southbound service area is assumed.
+Proposed Molly Pitcher Service Area P&R → assumed rear-gate opening → Half Acre Road → US 130 → Route 133 → Turnpike Exit 8 northbound → Secaucus Junction. Optional pickups: South Brunswick Exit 8A P&R and Neilson Plaza at Exit 9. No direct northbound entry from the southbound service area is assumed. Optional final pickup: Harold's New York Deli parking lot in Edison via Exit 10, before continuing north to Secaucus Junction.
 
 ## Concept 3 access assumption
 
@@ -34,8 +34,17 @@ Planning-level, northbound conceptual alignment only; not an operating timetable
 - [NJTA: Molly Pitcher southbound service area, milepost 71.7](https://www.njta.gov/service-area/molly-pitcher-service-area-southbound/)
 - [OSM: Molly Pitcher location / site boundary](https://www.openstreetmap.org/way/1537507737)
 - [OSM: private rear service road (opening assumed)](https://www.openstreetmap.org/way/614254063)
+- [Harold's New York Deli location](https://www.haroldsfamousdeli.com/)
+- [OSM Harold’s site location](https://www.openstreetmap.org/node/4843447022)
+
+## Edison Exit 10 optional pickup
+
+Harold's New York Deli parking lot is a proposed Edison / Exit 10 P&R. Property permission, parking allocation, accessible boarding, coach turning paths and return routing require review. The pickup point is illustrative, not an approved bus stop. Connecting-bus service and ridership have not been screened for this new site.
+
+Harold’s New York Deli parking lot replaces the previous Menlo Park / Walmart candidates. Each route can include this final optional pickup. Variants ending in _edison include the complete Exit 10 detour. New connector geometry is OSRM car-profile routing, not coach validation.
+
 
 
 ## Published website
 
-Use ../index.html to switch between the two alternatives. No local server is needed for this hosted copy.
+Use ../index.html for the three Neilson Plaza concepts with optional Harold’s / Exit 10 pickup. No local server is needed for this hosted copy.

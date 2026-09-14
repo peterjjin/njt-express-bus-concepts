@@ -11,8 +11,8 @@
   },
   {
     "path": "Interactive website/basemap-config.js",
-    "bytes": 98,
-    "sha256": "559cdb44eb56fcbcd6f9717ff1505fa09bc7ca76706aee22197e4462f779f1c6"
+    "bytes": 97,
+    "sha256": "76cd86d453cf07794b35a576168360da1c9c026fa3bfcf25884644dabe9bb299"
   },
   {
     "path": "Interactive website/basemap.js",
@@ -21,73 +21,48 @@
   },
   {
     "path": "Interactive website/index.html",
-    "bytes": 2866,
-    "sha256": "9a0c21efc6024f92a8baf2a191b8f3cef455ad37cb934c0c2cb9febb59d682f7"
+    "bytes": 2520,
+    "sha256": "d647cd14e390ded37e50e2bec9604d98e70dc32e0931167851d3d03d8f51d8f0"
   },
   {
     "path": "Interactive website/Map setup.html",
-    "bytes": 1305,
-    "sha256": "d8aa6defaa7a2d38c0b0d6af2c20415172f98552a0f2392e5cdccdbe91776cf5"
-  },
-  {
-    "path": "Interactive website/Mary Ellis Burial Site/index.html",
-    "bytes": 1042609,
-    "sha256": "4bd07bdc206d168c9eef38402b75cc08f4708b0a9ff6f8008358cbb249b4750b"
-  },
-  {
-    "path": "Interactive website/Mary Ellis Burial Site/map-data.json",
-    "bytes": 1028535,
-    "sha256": "8212b125cf7c66821f277be7b5a60ca36ddfe3ffb895638dc68347e4e9ab6b78"
-  },
-  {
-    "path": "Interactive website/Mary Ellis Burial Site/Read Me.md",
-    "bytes": 3557,
-    "sha256": "d15cdb6d8067007358083a137accf0e8ae99f8c6794abff3d8faa333264724ad"
-  },
-  {
-    "path": "Interactive website/Mary Ellis Burial Site/Route Geometry.geojson",
-    "bytes": 392753,
-    "sha256": "b988db764c2180d8bc86f35e7087523e93840f46e27a3309514f01c967c933d5"
-  },
-  {
-    "path": "Interactive website/Mary Ellis Burial Site/Segment Provenance.csv",
-    "bytes": 34179,
-    "sha256": "8a12308e6f320204f99a4e4e4c830e7a98be156d9199c09b6771c48a368d7e99"
+    "bytes": 1307,
+    "sha256": "8dd5c0d7109192dc909aa34514bbf76496c76d929485cb2eab858902e2f018b7"
   },
   {
     "path": "Interactive website/Neilson Plaza/index.html",
-    "bytes": 954269,
-    "sha256": "0e09154494c48a34602a87fd699b4964fc10b474d06b9c2c12528241b8425e0b"
+    "bytes": 2033687,
+    "sha256": "0b43ae00d78332adc517ed91e95fd54e24f24837f3747cd2fc50fc2edf4553bb"
   },
   {
     "path": "Interactive website/Neilson Plaza/map-data.json",
-    "bytes": 936124,
-    "sha256": "f838201ab91fa3b91f92747a07d1de427d2bf12f3e4298c7efc146e0f8648e3e"
+    "bytes": 2011149,
+    "sha256": "1cf2c1d826bf12af7e066fb80a3d2009f0625211bbf578f601ffcb3cead0681b"
   },
   {
     "path": "Interactive website/Neilson Plaza/Read Me.md",
-    "bytes": 3518,
-    "sha256": "6331f20435ea7d09948ce9b1a9b9d51d98c583a7a4df44ae45e1fddd793bebc3"
+    "bytes": 4696,
+    "sha256": "64dd02724efbc6d0ddd8987fd6f16b5811ed08aa48929a7850883a783cbc62a9"
   },
   {
     "path": "Interactive website/Neilson Plaza/Route Geometry.geojson",
-    "bytes": 334944,
-    "sha256": "3bbe8edd2afc6ac33474401627441733d149cc4c04765bf03b3cf1c3839db1d8"
+    "bytes": 776906,
+    "sha256": "d8d915530d9f8ec7ea230d82e73525d9ee6832ddde4ba9d8b2ee38612f906d41"
   },
   {
     "path": "Interactive website/Neilson Plaza/Segment Provenance.csv",
-    "bytes": 24876,
-    "sha256": "dfb9ecdd6919b184df0a95f298f4b623bdd6e73d73bfe24f86270db0b1ac11ab"
+    "bytes": 74499,
+    "sha256": "5a509c1c57e3160f8c35540818738bdd62a410f515030453cb388342c1d27f82"
   },
   {
     "path": "Interactive website/pr-callout-data.js",
-    "bytes": 62064,
-    "sha256": "b80c5132d57e4404f8c3d5a7723d0cf7d2940c7cea964584aef7bb9baa34f30a"
+    "bytes": 60630,
+    "sha256": "ca3dc6f93e26b7f327ed8829f74e5fe5d52f1c955b32b6fe07ac05a784a38ccb"
   },
   {
     "path": "Interactive website/pr-callout-data.json",
-    "bytes": 62036,
-    "sha256": "5141c642ca91d6ed23fcc326c37a01d1f753b2d400a06fe6ec6f6515635818dd"
+    "bytes": 60603,
+    "sha256": "3a401891e99972e2961973d0e898d414edba60217fd4803ffe5fd32c1b263242"
   },
   {
     "path": "Interactive website/pr-callouts.js",
@@ -96,157 +71,97 @@
   },
   {
     "path": "Route maps snapshots/1A - Concept 1 - Neilson Plaza - 300dpi.png",
-    "bytes": 5247916,
-    "sha256": "54e77bc2ff85388f27c1a09ef270b087e5cd808302572f99c7539d9df9a3feba"
-  },
-  {
-    "path": "Route maps snapshots/1B - Concept 1 - Mary Ellis Burial Site - 300dpi.png",
-    "bytes": 5649153,
-    "sha256": "54879ace9e30f2ceeb0174f25eb7e37027713b0902df511bac921874e55158ca"
+    "bytes": 5298460,
+    "sha256": "5ec1015bdf436b633afd5ab1d062c75867de8ec5bbf667d94d4cc900ee9f94d6"
   },
   {
     "path": "Route maps snapshots/2A - Concept 2 - Neilson Plaza - 300dpi.png",
-    "bytes": 5425350,
-    "sha256": "d89c999ed9ca678bb2ac162da9f89ea1b9db174ba1413daf03dc4dbe57f321fc"
-  },
-  {
-    "path": "Route maps snapshots/2B - Concept 2 - Mary Ellis Burial Site - 300dpi.png",
-    "bytes": 5809075,
-    "sha256": "d8e3d8d41ef6ae7e9cbd4ba7089642a0e2f42f21515b2a826cd5c768ad518a2c"
+    "bytes": 5542559,
+    "sha256": "631f5911c3a67e9f3c660de36404951e983a683bcfcdfa85947cc6b8978f26e2"
   },
   {
     "path": "Route maps snapshots/3A - Concept 3 - Neilson Plaza - 300dpi.png",
-    "bytes": 5647193,
-    "sha256": "051861d863c1f7622880c3dce289eb980534b952071115a09fa241e77cd25821"
-  },
-  {
-    "path": "Route maps snapshots/3B - Concept 3 - Mary Ellis Burial Site - 300dpi.png",
-    "bytes": 6023201,
-    "sha256": "ce3c99a5ccc84ea5c94b5da6ab00cbcb2bb6261bb31d826508f39189d82fc2a4"
+    "bytes": 5781417,
+    "sha256": "3af29c24fce961b53cd22d7dc8b2e2ee917d159e43f4a925ab2a3e2e46d5d448"
   },
   {
     "path": "Route maps snapshots/previews/1A.png",
-    "bytes": 914199,
-    "sha256": "767232247348ea1733fd9f6d575ab90bf34bc843efcb75b6b5e8df3285714868"
-  },
-  {
-    "path": "Route maps snapshots/previews/1B.png",
-    "bytes": 953059,
-    "sha256": "d18defe3d363c9a63dc305dcd1a1df6e1fbe648c6e83fc130d90b26a1dfacb2f"
+    "bytes": 929306,
+    "sha256": "646e7bbbd1f8a444e6c33f65bc424668ac4f93acc36ebd776e4bea3b48873c24"
   },
   {
     "path": "Route maps snapshots/previews/2A.png",
-    "bytes": 885215,
-    "sha256": "bb3d296986f611fbc9432e491b0aa24a8ef6447d5ec8c90cd8b0754e13030c97"
-  },
-  {
-    "path": "Route maps snapshots/previews/2B.png",
-    "bytes": 923382,
-    "sha256": "8d859ddd599f50bc2b84ce75ecfe7ff4890ba048ae7c7d299805cf154889ab35"
+    "bytes": 903210,
+    "sha256": "3a2b889201cb9b6abcfd37d0b439210b582eb323ae413092e1804d4d774aeac9"
   },
   {
     "path": "Route maps snapshots/previews/3A.png",
-    "bytes": 888454,
-    "sha256": "90de9e497b4f30a5cfae7363b1ed88aa32124239a7ff4777506b10f244acc7d0"
-  },
-  {
-    "path": "Route maps snapshots/previews/3B.png",
-    "bytes": 926237,
-    "sha256": "41b87757b158ab8e1978a1fc86dfc63c13e792f67b59e06fdf9882c6aed03dab"
-  },
-  {
-    "path": "Route maps snapshots/Six Route Snapshots - 300dpi.zip",
-    "bytes": 38451272,
-    "sha256": "c92a44939f8b1a0d7631e906125793e3e008b55641e3e8226c960f450c1de257"
+    "bytes": 911550,
+    "sha256": "c65e8222be6d5484405122c3e384423ca197d8e20bd886034faae0adcc9fbd3f"
   },
   {
     "path": "Route maps snapshots/Six Route Snapshots.html",
-    "bytes": 4682,
-    "sha256": "53ba1747bc32b7993a5b339801dbdaacfd1fe5f88b685f89d865888d4499743f"
+    "bytes": 2354,
+    "sha256": "13e5ed10688fedd0ac31c3d68d03ffbd92770767b1462324fb6725ec8e285257"
   },
   {
     "path": "Route maps snapshots/Snapshot Index.json",
-    "bytes": 2908,
-    "sha256": "78a1f0cc920a492e295e3a796449e56aafccbafc52d422d4bd2a29f53220c50c"
+    "bytes": 1606,
+    "sha256": "9e58554aac1d81e442e72f9f3c7885b9ed65e12103b86b93a6a7fbc58f0c08db"
+  },
+  {
+    "path": "Route maps snapshots/Three Neilson Maps - 300dpi.zip",
+    "bytes": 18962077,
+    "sha256": "9c55b35405b5cf8f5b2a0b5fe8cee5d1d8159a87e3c8e92540a25d0c4cc1bb76"
   },
   {
     "path": "Route maps snapshots/With bus routes and ridership/1A - Concept 1 - Neilson Plaza - 300dpi.png",
-    "bytes": 5630883,
-    "sha256": "1c6beef96514ce55fe8909173b30107ccefd10f758112cd52c214ee83f5c086d"
-  },
-  {
-    "path": "Route maps snapshots/With bus routes and ridership/1B - Concept 1 - Mary Ellis Burial Site - 300dpi.png",
-    "bytes": 6037129,
-    "sha256": "112124a2104fda5e066084138f79a5bb103a5c7dde50373a095a8add307b8bd2"
+    "bytes": 5682699,
+    "sha256": "f8ae5d61afb57c260068450a6c5cad753dee1592f8d94c24c40071e655ed4776"
   },
   {
     "path": "Route maps snapshots/With bus routes and ridership/2A - Concept 2 - Neilson Plaza - 300dpi.png",
-    "bytes": 5679240,
-    "sha256": "6e2661db0a89678ee31a8dbee057734a20b40b820cd16b99a6be098db02118f3"
-  },
-  {
-    "path": "Route maps snapshots/With bus routes and ridership/2B - Concept 2 - Mary Ellis Burial Site - 300dpi.png",
-    "bytes": 6070620,
-    "sha256": "7de1980cc5bc4cc1863299e1c7529ce67d91e6e5a129a3d7865986573ae16982"
+    "bytes": 5797310,
+    "sha256": "98714d63a20f1fb170e101666c2d00f5698153926763d5391b0aa560504e4cf8"
   },
   {
     "path": "Route maps snapshots/With bus routes and ridership/3A - Concept 3 - Neilson Plaza - 300dpi.png",
-    "bytes": 5922673,
-    "sha256": "5cd835f4b712e9e597791472496496d3fb534085569b5857c62ab22dd4ed179f"
-  },
-  {
-    "path": "Route maps snapshots/With bus routes and ridership/3B - Concept 3 - Mary Ellis Burial Site - 300dpi.png",
-    "bytes": 6307820,
-    "sha256": "3b516b2fce625f9405f7ecb9725f6c044633d9f3b09c878a57ef827bddf8aa85"
+    "bytes": 6058091,
+    "sha256": "099d078e28a51fd157244b6eceae0c5e92882bacb1bf3fc1f53bad9c74456292"
   },
   {
     "path": "Route maps snapshots/With bus routes and ridership/Bus connections data.json",
-    "bytes": 62036,
-    "sha256": "5141c642ca91d6ed23fcc326c37a01d1f753b2d400a06fe6ec6f6515635818dd"
+    "bytes": 60603,
+    "sha256": "3a401891e99972e2961973d0e898d414edba60217fd4803ffe5fd32c1b263242"
   },
   {
     "path": "Route maps snapshots/With bus routes and ridership/index.html",
-    "bytes": 3705,
-    "sha256": "1b15245f153af868d5cac4c64f9a217fc7dcc8f8b334e6b4a375c453acdc1cf8"
+    "bytes": 2430,
+    "sha256": "e1c13dd292c5731e1976530672ef80c5405e0497801af06fa17b0aec2e5cf3f6"
   },
   {
     "path": "Route maps snapshots/With bus routes and ridership/previews/1A.png",
-    "bytes": 997906,
-    "sha256": "e5394d04c5f784088644cafe2ff80292eb8533acb2e109973393ca15575ef8c4"
-  },
-  {
-    "path": "Route maps snapshots/With bus routes and ridership/previews/1B.png",
-    "bytes": 1037015,
-    "sha256": "fe7f9b3221fa057d97238fcc03c247566773f3be9963b854ece6c2c4b54bb5db"
+    "bytes": 1013084,
+    "sha256": "55dca39dfa380eef7211622212576f4faf3405a2b16c31731c1938b579ba8ad7"
   },
   {
     "path": "Route maps snapshots/With bus routes and ridership/previews/2A.png",
-    "bytes": 941569,
-    "sha256": "83060fbe02ca1df3b23af1e9a587fc6e79370695cd7eccb64f72bd5655462d1e"
-  },
-  {
-    "path": "Route maps snapshots/With bus routes and ridership/previews/2B.png",
-    "bytes": 981188,
-    "sha256": "bc3d842f6dce5b4ea1df6b21943ac23553d59cc89e3a5a049da0193a98c5abf5"
+    "bytes": 959563,
+    "sha256": "68b09fc7c3dca305f4daf3748aa194cd0e3a90227c0fe4fd42a6cb8b16331fe4"
   },
   {
     "path": "Route maps snapshots/With bus routes and ridership/previews/3A.png",
-    "bytes": 950299,
-    "sha256": "48dd7b1f6f32e4a1c105ff70ffdd6e03ac5f052d773b6bb692a0d2301851f356"
-  },
-  {
-    "path": "Route maps snapshots/With bus routes and ridership/previews/3B.png",
-    "bytes": 989596,
-    "sha256": "14a1b1380d71c5074ff3aab8a1a21beef4b189175c5a65d2170139e08ae96a5f"
-  },
-  {
-    "path": "Route maps snapshots/With bus routes and ridership/Six Compact Bus Ridership Snapshots - 300dpi.zip",
-    "bytes": 40528990,
-    "sha256": "adf11c40b307ae0ae9fd4f9a9eea4d5f6eab0a8d8dde374b4d4463ff24f39a5d"
+    "bytes": 973261,
+    "sha256": "c9afbd6d4a7f621214e1fdabeb70c97a3fbf4b5a9833a53c6cf1bf81d2d0ac1a"
   },
   {
     "path": "Route maps snapshots/With bus routes and ridership/Snapshot Index.json",
-    "bytes": 2902,
-    "sha256": "c271222056feaf27147649ba00dda879e7cc09a3f10722f98fc5062f15718341"
+    "bytes": 1603,
+    "sha256": "9a8a575158162334bc4d4a23c33ae2462a92439490d9a8019ffc38c103cf88ab"
+  },
+  {
+    "path": "Route maps snapshots/With bus routes and ridership/Three Neilson Maps - Bus Ridership - 300dpi.zip",
+    "bytes": 19989872,
+    "sha256": "1d6ecccd7d67bcdeb9e432bf59259f9a01d9fd8b0fd440539f774396f2d36fbf"
   }
 ]
